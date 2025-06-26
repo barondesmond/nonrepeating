@@ -1,6 +1,6 @@
 <?php
 
-function nonRepeatingString(string $string): mixed
+function nonRepeatingString(string $string): string|int
 {
     $i = 0;
     $nonRepeatingString = [];
